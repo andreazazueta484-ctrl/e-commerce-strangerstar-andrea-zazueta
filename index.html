@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>STRANGE STAR</title>
+    
+    <!-- Font Awesome para poder usar iconos como lupas, corazones o carritos. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+
+
+
+<body>
+
+    <header class="cabecera">
+        <div class="seccion-menu">
+            <img src="imagenes/logoencabezado.png" alt="Icono" class="imagen-icono">
+
+            <!-- nav = navegacion, ul = lista desordenada, li = items -->
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="index.html" class="enlace-activo"><i class="fa-solid fa-house"></i> INICIO</a></li>
+                    <li class="diagonal-separadora">/</li>
+                    <li><a href="catalogo.html"><i class="fa-solid fa-shirt"></i> CATÁLOGO</a></li>
+                    <li class="diagonal-separadora">/</li>
+                    <li><a href="https://www.instagram.com/strangenewsstar" target="_blank"><i class="fa-solid fa-wand-magic-sparkles"></i> BLOG</a></li>                
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="seccion-logo">
+            <img src="imagenes/logocentro.png" alt="Logo Principal" class="imagen-logo-central">
+            <p class="texto-eslogan">Moda alternativa, grunge & streetwear</p>
+        </div>
+
+        
+        <div class="seccion-botones">
+            <div class="caja-buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar">
+            </div>
+            
+            <button class="boton-interactivo">
+                <i class="fa-regular fa-heart"></i> Wishlist <span class="circulo-numero">0</span>
+            </button>
+            
+            <button class="boton-interactivo">
+                <i class="fa-solid fa-cart-shopping"></i> Carrito <span class="circulo-numero">0</span>
+            </button>
+        </div>
+    </header>
+    
+    
+    
+    <!-- estrellas -->
+    <main class="seccion-coleccion">
+        
+        <h2 class="titulo-coleccion">COLECCION 2026</h2>
+
+        <div class="contenedor-estrellas">
+
+            <div class="tarjeta-categoria tarjeta-lateral">
+                <button class="boton-categoria" onclick="window.location.href='catalogo.html?filtro=alternativa'">
+                    <i class="fa-regular fa-star"></i> Moda Alternativa
+                </button>
+                <div class="mascara-estrella">
+                    <img src="imagenes/modaalternativa-estrella.jpg" alt="Moda Alternativa" class="imagen-estrella">
+                </div>
+            </div>
+
+            <div class="tarjeta-categoria tarjeta-central">
+                <button class="boton-categoria" onclick="window.location.href='catalogo.html?filtro=grunge'">
+                    <i class="fa-regular fa-star"></i> Moda Grunge
+                </button>
+                <div class="mascara-estrella">
+                    <img src="imagenes/modagrunge-estrella.jpg" alt="Moda Grunge" class="imagen-estrella">
+                </div>
+    
+                <a href="catalogo.html" class="boton-catalogo">CATÁLOGO</a>
+            </div>
+
+            <div class="tarjeta-categoria tarjeta-lateral">
+                <button class="boton-categoria" onclick="window.location.href='catalogo.html?filtro=streetwear'">
+                    <i class="fa-regular fa-star"></i> Moda Streetwear
+                </button>
+                <div class="mascara-estrella">
+                    <img src="imagenes/modastreet-estrella.jpg" alt="Moda Streetwear" class="imagen-estrella">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+    <footer class="pie-pagina">
+        <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+        <a href="#"><i class="fa-regular fa-envelope"></i> Contacto</a>
+    </footer>
+
+</body>
+</html>

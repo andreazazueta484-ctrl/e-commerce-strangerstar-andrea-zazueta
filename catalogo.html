@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>CATALOGO - STRANGE STAR</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+
+
+<body>
+
+    <header class="cabecera">
+        <div class="seccion-menu">
+            <img src="imagenes/logoencabezado.png" alt="Icono" class="imagen-icono">
+
+            <!-- nav = navegacion, ul = lista desordenada, li = items -->
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> INICIO</a></li>
+                    <li class="diagonal-separadora">/</li>
+                    <li><a href="catalogo.html" class="enlace-activo"><i class="fa-solid fa-shirt"></i> CATÁLOGO</a></li>
+                    <li class="diagonal-separadora">/</li>
+                    <li><a href="https://www.instagram.com/strangenewsstar" target="_blank"><i class="fa-solid fa-wand-magic-sparkles"></i> BLOG</a></li>                </ul>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="seccion-logo">
+            <img src="imagenes/logocentro.png" alt="Logo Principal" class="imagen-logo-central">
+            <p class="texto-eslogan">Moda alternativa, grunge & streetwear</p>
+        </div>
+
+        <div class="seccion-botones">
+            <div class="caja-buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar">
+            </div>
+            
+            <button class="boton-interactivo">
+                <i class="fa-regular fa-heart"></i> Wishlist <span class="circulo-numero">0</span>
+            </button>
+            
+            <button class="boton-interactivo">
+                <i class="fa-solid fa-cart-shopping"></i> Carrito <span class="circulo-numero">0</span>
+            </button>
+        </div>
+    </header>
+
+
+
+
+    <main class="seccion-catalogo fondo-estrellas-global">
+        
+        <h2 class="titulo-catalogo">CATÁLOGO DE PRODUCTOS</h2>
+
+        <div class="filtros-catalogo">
+            <button class="btn-filtro activo"><i class="fa-regular fa-star"></i> TODO</button>
+            <button class="btn-filtro"><i class="fa-regular fa-star"></i> Moda Alternativa</button>
+            <button class="btn-filtro"><i class="fa-regular fa-star"></i> Moda Grunge</button>
+            <button class="btn-filtro"><i class="fa-regular fa-star"></i> Moda Streetwear</button>
+        </div>
+
+        <div class="grid-productos">
+            
+            <!-- Producto 1 -->
+            <article class="tarjeta-producto">
+                <div class="contenedor-img-prod">
+                    <span class="num-producto">01</span>
+                    <button class="btn-corazon"><i class="fa-regular fa-heart"></i></button>
+                    <img src="imagenes/topnocturne.jpg" alt="Top Nocturne" class="img-prod">
+                    <span class="etiqueta-categoria">ALTERNATIVA</span>
+                </div>
+                <div class="info-producto">
+                    <h3 class="titulo-prod"><i class="fa-regular fa-star"></i> Top Nocturne</h3>
+                    <div class="fila-comprar">
+                        <span class="precio">$900 MXN</span>
+                        <button class="btn-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Producto 2 -->
+            <article class="tarjeta-producto">
+                <div class="contenedor-img-prod">
+                    <span class="num-producto">02</span>
+                    <button class="btn-corazon"><i class="fa-regular fa-heart"></i></button>
+                    <img src="imagenes/sueterdistortion.jpg" alt="Suéter Distortion" class="img-prod">
+                    <span class="etiqueta-categoria">GRUNGE</span>
+                </div>
+                <div class="info-producto">
+                    <h3 class="titulo-prod"><i class="fa-regular fa-star"></i> Suéter Distortion</h3>
+                    <div class="fila-comprar">
+                        <span class="precio">$500 MXN</span>
+                        <button class="btn-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Producto 3 -->
+            <article class="tarjeta-producto">
+                <div class="contenedor-img-prod">
+                    <span class="num-producto">03</span>
+                    <button class="btn-corazon"><i class="fa-regular fa-heart"></i></button>
+                    <img src="imagenes/streetcargo.jpg" alt="Street Cargo" class="img-prod">
+                    <span class="etiqueta-categoria">STREETWEAR</span>
+                </div>
+                <div class="info-producto">
+                    <h3 class="titulo-prod"><i class="fa-regular fa-star"></i> Street Cargo</h3>
+                    <div class="fila-comprar">
+                        <span class="precio">$750 MXN</span>
+                        <button class="btn-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Producto 4 -->
+            <article class="tarjeta-producto">
+                <div class="contenedor-img-prod">
+                    <span class="num-producto">04</span>
+                    <button class="btn-corazon"><i class="fa-regular fa-heart"></i></button>
+                    <img src="imagenes/dressafterdark.jpg" alt="Vestido After Dark" class="img-prod">
+                    <span class="etiqueta-categoria">ALTERNATIVA</span>
+                </div>
+                <div class="info-producto">
+                    <h3 class="titulo-prod"><i class="fa-regular fa-star"></i> Vestido After Dark </h3>
+                    <div class="fila-comprar">
+                        <span class="precio">$1,700 MXN</span>
+                        <button class="btn-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Producto 5 -->
+            <article class="tarjeta-producto">
+                <div class="contenedor-img-prod">
+                    <span class="num-producto">05</span>
+                    <button class="btn-corazon"><i class="fa-regular fa-heart"></i></button>
+                    <img src="imagenes/pantalonunder.jpg" alt="Chamarra Oversize" class="img-prod">
+                    <span class="etiqueta-categoria">STREETWEAR</span>
+                </div>
+                <div class="info-producto">
+                    <h3 class="titulo-prod"><i class="fa-regular fa-star"></i> Pantalon Underground</h3>
+                    <div class="fila-comprar">
+                        <span class="precio">$650 MXN</span>
+                        <button class="btn-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Producto 6 -->
+            <article class="tarjeta-producto">
+                <div class="contenedor-img-prod">
+                    <span class="num-producto">06</span>
+                    <button class="btn-corazon"><i class="fa-regular fa-heart"></i></button>
+                    <img src="imagenes/tracktopaura.png" alt="Botas Combat" class="img-prod">
+                    <span class="etiqueta-categoria">GRUNGE</span>
+                </div>
+                <div class="info-producto">
+                    <h3 class="titulo-prod"><i class="fa-regular fa-star"></i> Track Top Aura</h3>
+                    <div class="fila-comprar">
+                        <span class="precio">$1,500 MXN</span>
+                        <button class="btn-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+
+
+
+    <footer class="pie-pagina">
+        <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+        <a href="#"><i class="fa-regular fa-envelope"></i> Contacto</a>
+    </footer>
+
+</body>
+</html>
